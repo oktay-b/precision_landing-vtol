@@ -1,4 +1,4 @@
-# Precision Land 2
+# Precision Landing / VTOL
 
 ROS 2 ve PX4 tabanlı, AprilTag görüntü işleme ile insansız hava aracının (İHA) hedef üzerine hassas iniş yapmasını sağlayan otonom kontrol sistemi.
 
@@ -47,7 +47,7 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
 # Bu repoyu klonla
-git clone https://github.com/oktay-b/precision_land-2.git
+git clone https://github.com/oktay-b/precision_landing-vtol.git
 
 # Bağımlılıkları yükle
 cd ~/ros2_ws
