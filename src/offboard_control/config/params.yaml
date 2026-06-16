@@ -1,0 +1,6 @@
+offboard_control_node:
+  ros__parameters:
+    p: 1
+    i: 0.1
+    d: 0.01
+    

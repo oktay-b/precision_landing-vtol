@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name="stack_rover_ar">
+    <include merge='true'>
+      <uri>stack_rover</uri>
+    </include>
+    <include merge='true'>
+      <uri>model://AprilTagBox</uri>
+      <pose>.12 .03 .242 0 0 0</pose>
+    </include>
+    <joint name="CameraJoint" type="fixed">
+      <parent>base_link</parent>
+      <child>box_link</child>
+      <pose relative_to="base_link">.12 .03 .242 0 0 0</pose>
+    </joint>
+  </model>
+</sdf>

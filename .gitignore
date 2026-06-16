@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ROS2 / Colcon build artifacts
+build/
+install/
+log/
+
+# C++
+*.o
+*.a
+*.so
+*.out
